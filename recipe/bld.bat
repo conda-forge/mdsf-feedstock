@@ -2,7 +2,7 @@
 cargo-bundle-licenses --format yaml --output THIRDPARTY.yml || goto :error
 
 :: build
-cargo install --no-track --locked --root "%LIBRARY_PREFIX%" --path . || goto :error
+cargo install --no-track --locked --root "%LIBRARY_PREFIX%" --path mdsf || goto :error
 
 goto :EOF
 
