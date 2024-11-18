@@ -1,5 +1,5 @@
 {% set name = "mdsf" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/hougesen/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: f1c02855bbc844c49321ef37f90f65459ff365594fc0bc317812391b3f3939ed
+  sha256: f0a24b8cbc48a9e8e4eb73ba6083083954592940150c632f4bb0bda9fcbdc099
 
 build:
   number: 0
