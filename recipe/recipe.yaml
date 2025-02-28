@@ -1,5 +1,5 @@
 context:
-  version: "0.5.2"
+  version: "0.6.0"
 
 package:
   name: mdsf
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/hougesen/mdsf/archive/v${{ version }}.tar.gz
-  sha256: 44b250343a096758d351d4c072d4c3cd62948efccc95874d40b65036b04326e4
+  sha256: de5f38af46e2cd09d75b5bb827c948522fb171d5eeb129e11778d45c80147b59
 
 build:
   number: 0
